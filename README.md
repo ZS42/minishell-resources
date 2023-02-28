@@ -35,7 +35,92 @@ int main (void){
     /* get the state of your history list (offset, length, size) */
     HISTORY_STATE *myhist = history_get_history_state ();
 
-    /* retrieve the history list */
+   Notes 
+   
+   ./minishell goes to prompt for your shell using readline
+   
+   add history stores history and automatically can use arrows to go back and forth.
+   
+   write these built ins yourself
+   echo with -n option;
+    echo $? gives exit status of last closed process
+    echo $? +$?
+    0 + 0
+   cd with only a relative or absolute path;
+    (absolute path /bin
+        relative path bin)
+    cd . stays
+    cd .. goes one out
+   pwd;
+   export;
+    export inserts into env
+    export a = aaa
+    then a = aaa will be in env
+    if export a = aaa b = bbb
+    then
+        a =aaa
+        b = bbb
+    will be at end of env
+   unset;
+     unset removes from env
+     unset a 
+     will remove it from env
+    
+    both export and unset can do multiple variables and values
+   env;
+    env is our copy of env
+   exit;
+   (only one number acceptable to exit
+   exit means come out of shell)
+    
+   crash = segfault
+    
+   ctrl / dos nothing in parent but in child cat ^\ quit 3
+   child takes you out of shell
+    
+   ctrl C returns prompt
+   if command then in child
+    
+    when "" or '' acts as if a single command inside
+    
+    when double quote
+    echo "$USER > name"
+    name
+    ie interpreted
+    
+    when single quote
+    echo 'USER > name'
+    $USER
+    not interpreted
+     
+    echo yes > a > b
+     yes will be in b . a will be created but empty
+    
+    ls -la > a > c > d > e
+     only e will have ls -la in it
+  ** order of options doesnt matter ls -la == ls -al
+  
+  << for here doc and followed by delimiter. Will print till delimiter
+  
+  <<a
+  -> df
+  -> gh
+  -> a
+    
+ df
+ gh
+    
+ here delimiter is a so prints till a
+  
+    
+    
+    
+    
+    
+    
+   
+   
+   /* retrieve the history list */
     HIST_ENTRY **mylist = history_list ();
 
     printf ("\nsession history for %s@%s\n\n", p, host);
