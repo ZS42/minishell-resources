@@ -52,10 +52,14 @@ int main (void){
 }
 Example Use/Output
 
-$ ./bin/readline\n
-1 david@alchemy> command 1\n
-2 david@alchemy> command 2\n
-3 david@alchemy> command 3\n
+$ ./bin/readline
+
+1 david@alchemy> command 1
+
+2 david@alchemy> command 2
+
+3 david@alchemy> command 3
+
 4 david@alchemy> quit
 
 session history for david@alchemy
