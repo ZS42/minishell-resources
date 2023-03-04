@@ -38,6 +38,11 @@ int main (void){
 
     /* get the state of your history list (offset, length, size) */
     HISTORY_STATE *myhist = history_get_history_state ();
+    
+    FOR READLINE REDISPLAY
+    Function: int rl_redisplay ()
+
+    Change what's displayed on the screen to reflect the current contents of rl_line_buffer
 
    Notes 
    
