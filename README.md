@@ -1,6 +1,10 @@
 # minishell-resources
+FOR WAIT
+https://www.geeksforgeeks.org/wait-system-call-c/
 
-using history
+The wait4() subroutine is similar to the wait3() subroutine except that we can specify the process ID of the child. The wait3() subroutine waits for any child process but the wait4() subroutine can wait for a specific child process.
+
+FOR USING HISTORY
 
 #include<stdio.h>
 #include<stdlib.h>
