@@ -217,3 +217,6 @@ session history for david@alchemy
  command 3
  
  ![image](https://user-images.githubusercontent.com/82111543/221842357-78a06cf1-9382-4210-a349-624b395b9bd5.png)
+ 
+ FOR EXIT AND BONUS
+ https://linuxize.com/post/bash-exit/
