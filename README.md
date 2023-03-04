@@ -99,6 +99,8 @@ Returns true on success or false on failure.
     
     cd .. goes one out
     
+    https://man7.org/linux/man-pages/man2/chdir.2.html
+    
    pwd;
    
    export;
