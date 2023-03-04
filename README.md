@@ -41,8 +41,37 @@ int main (void){
     
     FOR READLINE REDISPLAY
     Function: int rl_redisplay ()
+    Function * rl redisplay function Variable
+If non-zero, readline will call indirectly through this pointer to update the
+display with the current contents of the editing buer. By default, it is set
+to rl_redisplay, the default readline redisplay function (see Section 2.4.6
+[Redisplay], page 24).
+int rl redisplay () Function
+Change what's displayed on the screen to reect the current contents of rl_
+line_buffer. int rl forced upd
+    
+    Function: int rl_on_new_line ()
 
-    Change what's displayed on the screen to reflect the current contents of rl_line_buffer
+    Tell the update routines that we have moved onto a new (empty) line, usually after ouputting a newline.
+Change what's displayed on the screen to reflect the current contents of rl_line_buffer
+    
+    readline_clear_history
+(PHP 4, PHP 5, PHP 7, PHP 8)
+
+readline_clear_history — Clears the history
+
+Description ¶
+readline_clear_history(): bool
+This function clears the entire command line history.
+
+Parameters ¶
+This function has no parameters.
+
+Return Values ¶
+Returns true on success or false on failure.
+
+＋add a note
+
 
    Notes 
    
