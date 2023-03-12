@@ -256,3 +256,16 @@ session history for david@alchemy
  
  FOR EXIT AND BONUS
  https://linuxize.com/post/bash-exit/
+ 
+ FOR && and ||
+ https://kyleshevlin.com/using-and-and-or-in-bash-scripts
+ 
+ https://man7.org/linux/man-pages/man3/getcwd.3.html
+ https://man7.org/linux/man-pages/man2/ioctl.2.html
+ https://man7.org/linux/man-pages/man2/chdir.2.html
+ https://web.mit.edu/gnu/doc/html/rlman_2.html
+ https://www.gnu.org/software/bash/manual/bash.html
+ https://velog.io/@hidaehyunlee/minishell-2.-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EA%B5%AC%EC%A1%B0-%EB%B0%8F-%EA%B0%9C%EB%B0%9C-%EA%B8%B0%EB%A1%9D%EB%93%A4
+ https://github.com/mharriso/school21-checklists/blob/master/ng_3_minishell.pdf
+https://www.youtube.com/watch?v=ubt-UjcQUYg
+https://www.cs.purdue.edu/homes/grr/SystemsProgrammingBook/Book/Chapter5-WritingYourOwnShell.pdf
